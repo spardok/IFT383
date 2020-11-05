@@ -1,0 +1,4 @@
+CN=DL.WG.UTO.EAS,OU=Trusted Groups,DN=ASURITE,DN=ad.asu.edu
+CN=DL.ORG.UTO,DN=ASURITE,DN=ad.asu.edu
+CN=DL.WG.Staff.Poly,DN=ASURITE,DN=ad.asu.edu
+CN=Domain Users,DN=ASURITE,DN=ad.asu.edu
