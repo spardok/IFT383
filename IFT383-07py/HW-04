@@ -1,0 +1,26 @@
+#!/usr/bin/python
+class Vehicle:
+    wheels=4
+    doors=2
+    fuel=100.0
+    temperature=105.0
+    def __init__(self, wheels, doors, fuel, temperature):
+        self.wheels = int(wheels)
+        self.doors = int(doors)
+        self.fuel = float(fuel)
+        self.temperature = float(remperature)
+        
+    def getWheels(self)
+        return self.wheels
+    
+    def getDoors(self):
+        return self.doors
+
+    def getFuel(self):
+        return self.fuel
+
+    def getTemperature(self):
+        return self.temperature
+    
+    def setFuel(self, newVal)
+        self.Fuel = newVal

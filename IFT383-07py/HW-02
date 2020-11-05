@@ -1,0 +1,35 @@
+#!/usr/bin/python
+
+# your class definition goes here
+import random
+class Die(object):
+
+    def __init__(self, sides):
+        self.sides = sides
+    
+    def roll(self):
+         return random.randint(1, self.sides)
+     
+    def rollMultiple(self, number):
+        myRollList = []
+        for i in range(number):
+            myRollList.append(self.roll())
+        return myRollList
+    
+    def getSides(self):
+        return self.sides
+        
+# testing code
+# please do not edit
+myd = Die(6)
+md = myd.rollMultiple(1000)
+if type(myd.roll()) is int:
+    print("test 1 pass")
+if len(md) == 1000:
+    print("test 2 pass")
+if max(md) == 6:
+    print("test 3 pass")
+if min(md) == 1:
+    print("test 4 pass")
+if myd.getSides() == 6:
+    print("test 5 pass")
